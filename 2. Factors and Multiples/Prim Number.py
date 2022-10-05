@@ -4,6 +4,6 @@ for num in range (1, 100):
             if (num % i) ==0:
                 break
         else:
-            print(num)
+            # print(num)
   higher = 10
   
