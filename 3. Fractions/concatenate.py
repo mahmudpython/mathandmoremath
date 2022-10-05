@@ -18,3 +18,13 @@ bangladesh_consume = 15/chapai_nawabganj_mango_supply
 fifteen_percent = 100*1000
 saventy_percent = ((fifteen_percent*70)/15)
 print(saventy_percent)
+
+
+'''Mahmud'''
+bangladesh_consume_persentace = 100/15
+mango = 100000*bangladesh_consume_persentace
+mango_suplly = mango*70
+print(mango_suplly)
+total_mango_produce = mango*100
+print(total_mango_produce)
+
