@@ -21,10 +21,15 @@ print(saventy_percent)
 
 
 '''Mahmud'''
+total_produce = 100/1
+mango_supply = 70/100
 bangladesh_consume_persentace = 100/15
+
 mango = 100000*bangladesh_consume_persentace
-mango_suplly = mango*70
-print(mango_suplly)
-total_mango_produce = mango*100
+
+total_mango_suplly = mango*mango_supply
+print(total_mango_suplly)
+
+total_mango_produce = mango*total_produce
 print(total_mango_produce)
 
