@@ -11,7 +11,7 @@ for num in range (1, 1000):
             if (num % i) ==0:
                 break
         else:
-            print(num)
+            # print(num)
             prime_number.append(num)
 
 print(prime_number)

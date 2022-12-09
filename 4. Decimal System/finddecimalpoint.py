@@ -76,17 +76,21 @@ print(persantace_incrage)
 last ten days value arrange
 '''
 
-last_one = ten_days_ago_price = json_data['data'][-1]['priceUsd']
-last_two = ten_days_ago_price = json_data['data'][-2]['priceUsd']
-last_three = ten_days_ago_price = json_data['data'][-3]['priceUsd']
-last_four = ten_days_ago_price = json_data['data'][-4]['priceUsd']
-last_five = ten_days_ago_price = json_data['data'][-5]['priceUsd']
-last_six = ten_days_ago_price = json_data['data'][-5]['priceUsd']
-last_seven = ten_days_ago_price = json_data['data'][-6]['priceUsd']
-last_eight = ten_days_ago_price = json_data['data'][-7]['priceUsd']
-last_nine = ten_days_ago_price = json_data['data'][-8]['priceUsd']
-last_tem = ten_days_ago_price = json_data['data'][-9]['priceUsd']
+ten_days_data = []
+for i in range (10):
+    # print(-i)
+    ten_days_data.append(int(float(json_data['data'][i+1]['priceUsd'])))
 
-avarage = (last_one+last_two+last_three+last_four+last_five+last_six+last_seven+ \
-           last_eight+last_nine+last_tem/10)
+print(ten_days_data)
+print(len(ten_days_data))
+print(sum(ten_days_data)/(len(ten_days_data)))
+
+fourteen_five_days_data = []
+for i in range (45):
+    # print(-i)
+    fourteen_five_days_data.append((int(float(json_data['data'][-i]['priceUsd']))))
+print(fourteen_five_days_data)
+print(len(fourteen_five_days_data))
+print(sum(fourteen_five_days_data)/len(fourteen_five_days_data))
+
 

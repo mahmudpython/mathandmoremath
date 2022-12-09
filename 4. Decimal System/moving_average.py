@@ -43,3 +43,4 @@ def day_data(price_list, days):
 # day_data(price_list, 7)
 # day_data(price_list, 25)
 day_data(price_list, 90)
+
